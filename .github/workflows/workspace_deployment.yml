@@ -18,9 +18,9 @@ jobs:
           OverrideArmParameters: './path of the parameters.yaml'
           environment: 'Azure Public'
           resourceGroup: 'swdeshpande'
-          clientId: ${{secrets.clientid}}
-          clientSecret:  ${{secrets.clientsecret}}
-          subscriptionId:  ${{secrets.subscriptionid}}
-          tenantId:  ${{secrets.tenantid}}
+          clientId: ${{secrets.CLIENTID}}
+          clientSecret:  ${{secrets.CLIENTSECRET}}
+          subscriptionId:  ${{secrets.SUBSCRIPTIONID}}
+          tenantId:  ${{secrets.TENANTID}}
           DeleteArtifactsNotInTemplate: 'true'
           managedIdentity: 'False'
